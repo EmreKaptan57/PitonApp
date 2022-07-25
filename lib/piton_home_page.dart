@@ -221,7 +221,7 @@ class PitonHomePage extends StatelessWidget {
                               elevation: 0.0, shadowColor: Colors.transparent),
                           onPressed: twitter,
                           child: CircleAvatar(
-                            radius: 30,
+                            radius: 32,
                             child: Image.asset(twitterPhoto),
                           ),
                         ),
