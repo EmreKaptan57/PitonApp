@@ -49,7 +49,7 @@ class _BizKimizState extends State<BizKimizPage> {
               ),
               Text("Biz Kimiz ?",
                   style: GoogleFonts.fredokaOne(
-                    fontSize: 45,
+                    fontSize: 40,
                   )),
               SizedBox(
                 height: MediaQuery.of(context).size.height * 0.02,
@@ -69,7 +69,7 @@ class _BizKimizState extends State<BizKimizPage> {
                 ),
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.05,
+                height: MediaQuery.of(context).size.height * 0.06,
               ),
               const Text(
                 "Daha fazlası için...",

@@ -74,32 +74,32 @@ class _CalisanlarState extends State<CalisanlarPage> {
                 height: MediaQuery.of(context).size.height * 0.02,
               ),
               CustomListTile(
-                  title: "Emre",
+                  title: "Emre Kaptan",
                   substitle: "Stajyer",
                   image:
                       "https://media-exp1.licdn.com/dms/image/C4D0BAQHVYqe-1qzwzg/company-logo_200_200/0/1652776344847?e=2147483647&v=beta&t=5EkZU1DZlZ8pFN3DJXutGgKFTjC5zdxrEVo6QWhnRAY"),
               CustomListTile(
-                  title: "Emre",
+                  title: "Emre Kaptan",
                   substitle: "Stajyer",
                   image:
                       "https://media-exp1.licdn.com/dms/image/C4D0BAQHVYqe-1qzwzg/company-logo_200_200/0/1652776344847?e=2147483647&v=beta&t=5EkZU1DZlZ8pFN3DJXutGgKFTjC5zdxrEVo6QWhnRAY"),
               CustomListTile(
-                  title: "Emre",
+                  title: "Emre Kaptan",
                   substitle: "Stajyer",
                   image:
                       "https://media-exp1.licdn.com/dms/image/C4D0BAQHVYqe-1qzwzg/company-logo_200_200/0/1652776344847?e=2147483647&v=beta&t=5EkZU1DZlZ8pFN3DJXutGgKFTjC5zdxrEVo6QWhnRAY"),
               CustomListTile(
-                  title: "Emre",
+                  title: "Emre Kaptan",
                   substitle: "Stajyer",
                   image:
                       "https://media-exp1.licdn.com/dms/image/C4D0BAQHVYqe-1qzwzg/company-logo_200_200/0/1652776344847?e=2147483647&v=beta&t=5EkZU1DZlZ8pFN3DJXutGgKFTjC5zdxrEVo6QWhnRAY"),
               CustomListTile(
-                  title: "Emre",
+                  title: "Emre Kaptan",
                   substitle: "Stajyer",
                   image:
                       "https://media-exp1.licdn.com/dms/image/C4D0BAQHVYqe-1qzwzg/company-logo_200_200/0/1652776344847?e=2147483647&v=beta&t=5EkZU1DZlZ8pFN3DJXutGgKFTjC5zdxrEVo6QWhnRAY"),
               CustomListTile(
-                  title: "Emre",
+                  title: "Emre Kaptan",
                   substitle: "Stajyer",
                   image:
                       "https://media-exp1.licdn.com/dms/image/C4D0BAQHVYqe-1qzwzg/company-logo_200_200/0/1652776344847?e=2147483647&v=beta&t=5EkZU1DZlZ8pFN3DJXutGgKFTjC5zdxrEVo6QWhnRAY"),

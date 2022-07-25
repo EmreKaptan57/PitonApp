@@ -20,11 +20,13 @@ class PitonHomePage extends StatelessWidget {
     PageController secondPage = PageController();
     PageController thirdPage = PageController();
 
-    final String instagramPhoto = "assets/images/instagram.png";
+    final String instagramPhoto = "assets/images/instagramFlutter.png";
 
-    final String twitterPhoto = "assets/images/twitter-brands.png";
+    final String facebookPhoto = "assets/images/facebookFlutter.png";
 
-    final String youtubePhoto = "assets/images/youtubeLogo.png";
+    final String twitterPhoto = "assets/images/twitterFlutter.png";
+
+    final String youtubePhoto = "assets/images/youtubeFlutter.png";
 
     final Uri url = Uri.parse('https://www.piton.com.tr/tr');
 
@@ -34,7 +36,7 @@ class PitonHomePage extends StatelessWidget {
       }
     }
 
-    final Uri mail = Uri.parse('mailto:emrekaptan.iletisim@gmail.com');
+    final Uri mail = Uri.parse('https://www.piton.com.tr/tr/contact');
 
     Future<void> launchUrlMail() async {
       if (!await launchUrl(mail)) {
@@ -148,7 +150,7 @@ class PitonHomePage extends StatelessWidget {
                               width: 250,
                               child: ElevatedButton.icon(
                                 style: ElevatedButton.styleFrom(
-                                    shape: RoundedRectangleBorder(
+                                    shape: const RoundedRectangleBorder(
                                         borderRadius: BorderRadius.all(
                                             Radius.circular(40))),
                                     primary: Colors.red),
@@ -198,13 +200,10 @@ class PitonHomePage extends StatelessWidget {
                           style: ElevatedButton.styleFrom(
                               elevation: 0.0, shadowColor: Colors.transparent),
                           onPressed: facebook,
-                          child: const CircleAvatar(
+                          child: CircleAvatar(
                             radius: 30,
-                            child: Icon(
-                              Icons.facebook,
-                              size: 50,
-                              color: Colors.white,
-                            ),
+                            backgroundColor: Colors.white,
+                            child: Image.asset(facebookPhoto),
                           ),
                         ),
                         ElevatedButton(
@@ -213,6 +212,7 @@ class PitonHomePage extends StatelessWidget {
                           onPressed: instagram,
                           child: CircleAvatar(
                             radius: 30,
+                            backgroundColor: Colors.white,
                             child: Image.asset(instagramPhoto),
                           ),
                         ),
@@ -221,7 +221,8 @@ class PitonHomePage extends StatelessWidget {
                               elevation: 0.0, shadowColor: Colors.transparent),
                           onPressed: twitter,
                           child: CircleAvatar(
-                            radius: 32,
+                            radius: 30,
+                            backgroundColor: Colors.white,
                             child: Image.asset(twitterPhoto),
                           ),
                         ),
@@ -231,6 +232,7 @@ class PitonHomePage extends StatelessWidget {
                           onPressed: youtube,
                           child: CircleAvatar(
                             radius: 30,
+                            backgroundColor: Colors.white,
                             child: Image.asset(youtubePhoto),
                           ),
                         ),
